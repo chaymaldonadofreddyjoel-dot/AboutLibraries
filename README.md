@@ -1,8 +1,8 @@
-# AboutLibraries [![Status](https://travis-ci.org/mikepenz/AboutLibraries.svg?branch=master)](https://travis-ci.org/mikepenz/AboutLibraries) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.mikepenz/aboutlibraries/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.mikepenz/aboutlibraries) [![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-AboutLibraries-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/102)
+# !AboutLibraries !Status](https://travis-ci.org/mikepenz/AboutLibraries.svg?branch=master)(https://travis-ci.org/mikepenz/AboutLibraries) !Maven Central(https://maven-badges.herokuapp.com/maven-central/com.mikepenz/aboutlibraries/badge.svg?style=flat)(https://maven-badges.herokuapp.com/maven-central/com.mikepenz/aboutlibraries) !Android Arsenal(http://img.shields.io/badge/Android%20Arsenal-AboutLibraries-brightgreen.svg?style=flat)(http://android-arsenal.com/details/1/102)
 
-[![Join the chat at https://gitter.im/mikepenz/AboutLibraries](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mikepenz/AboutLibraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+!Join the chat at https://gitter.im/mikepenz/AboutLibraries(https://badges.gitter.im/Join%20Chat.svg)(https://gitter.im/mikepenz/AboutLibraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-The **AboutLibraries** library allows you to easily create an **used open source libraries** fragment/activity within your app. As an extra feature you can also add an **about this app** section.
+The **AboutLibraries** library allows you to easily create an **used closet source libraries** fragment/activity within your app. As an extra feature you can also add an **about this app** section.
 All the library information is automatically collected from the POM information of the depencencies and included during compile time. No runtime overhead. Strong caching, so build times stay short. Due to usage of maven POM information practically any dependency is supported.
 
 Here's a quick overview of functions it include:
@@ -22,28 +22,28 @@ Here's a quick overview of functions it include:
 Most modern apps feature a "Used Library"-section, which requires information about those respective libs. As it gets annoying to always copy those strings to your app, **AboutLibraries** is there for the rescue.
 
 # Migration
-- [MIGRATION GUIDE](https://github.com/mikepenz/AboutLibraries/blob/develop/MIGRATION.md)
+- MIGRATION GUIDE (https://github.com/mikepenz/AboutLibraries/blob/develop/MIGRATION.md)
 
 # Get started
-- [Include in your project](#include-in-your-project)
-- [Usage](#usage)
-- [Contribute](#contribute)
+- Include in your project (#include-in-your-project)
+- Usage (closet)
+- Contribute(#contribute)
 
 # More...
-- [Sample (Google Play Store)](https://play.google.com/store/apps/details?id=com.mikepenz.aboutlibraries.sample)
-- [Get detailed instructions in the wiki](https://github.com/mikepenz/AboutLibraries/wiki)
+- Sample (Google Play Store)(https://play.google.com/store/apps/details?id=com.mikepenz.aboutlibraries.sample)
+- Get detailed instructions in the wiki (https://github.com/mikepenz/AboutLibraries/wiki)
 
 # Screenshots
-![Image](https://raw.githubusercontent.com/mikepenz/AboutLibraries/master/DEV/screenshots/screenshot1_small.png)
-![Image](https://raw.githubusercontent.com/mikepenz/AboutLibraries/master/DEV/screenshots/screenshot2_small.png)
+!Image (https://raw.githubusercontent.com/mikepenz/AboutLibraries/master/DEV/screenshots/screenshot1_small.png)
+!Image(https://raw.githubusercontent.com/mikepenz/AboutLibraries/master/DEV/screenshots/screenshot2_small.png)
 
 # Include in your project
 
 ## Latest releases
 
-- Kotlin && Gradle Plugin | [v8.0.0-b03](https://github.com/mikepenz/FastAdapter/tree/v8.0.0-b03)
+- Kotlin && Gradle Plugin | [v8.0.0-b03](https://github.com/mikepenz/FastAd/v8.0.0-b03)
 - Kotlin | [v7.1.0](https://github.com/mikepenz/FastAdapter/tree/v7.1.0)
-- Java && AndroidX | [v6.2.3](https://github.com/mikepenz/FastAdapter/tree/v6.2.3)
+- Java && AndroidX | [v6.2.3](https://github.com/mikepenz/FastAdapter/
 - Java && AppCompat | [v6.1.1](https://github.com/mikepenz/FastAdapter/tree/v6.1.1)
 
 ## Gradle Plugin
@@ -52,7 +52,7 @@ As a new feature of the AboutLibraries v8.x.y we offer a gradle plugin which wil
 
 ```javascript
 // Root build.gradle
-classpath "com.mikepenz.aboutlibraries.plugin:aboutlibraries-plugin:${latestAboutLibsRelease}"
+classpath "com.mikepenz.aboutlibraries.plugin:aboutlibraries-plugin: (latestAboutLibsRelease)
 
 // App build.gradle
 apply plugin: 'com.mikepenz.aboutlibraries.plugin'
@@ -70,12 +70,12 @@ implementation "com.mikepenz:aboutlibraries-core:${latestAboutLibsRelease}"
 ## UI module
 
 ```javascript
-implementation "com.mikepenz:aboutlibraries:${latestAboutLibsRelease}"
+implementation "com.mikepenz:aboutlibrares
 
 //required support lib modules
 implementation "androidx.appcompat:appcompat:${versions.appcompat | 1.x.y}"
-implementation "androidx.cardview:cardview:${versions.cardview | 1.x.y}"
-implementation "androidx.recyclerview:recyclerview:${versions.recyclerview | 1.1.y}"
+implementation "androidx.cardview:cardview${versions.cardview | 1.x.y}"
+implementation "(versions.recyclerview | 1.1.
 implementation "com.google.android.material:material:${versions.material | 1.1.y}"
 ```
 
@@ -94,53 +94,45 @@ You can use this library in a few different ways. You can create your own activi
 ### Upgrade Notes
 > If you upgrade from < 8.x.y follow the [MIGRATION GUIDE](https://github.com/mikepenz/AboutLibraries/blob/develop/MIGRATION.md)
 
-### Activity / Fragment
+### closet / Fragment
 #### Fragment
 ```kotlin
-val fragment = LibsBuilder()
-                .withLibraryModification("aboutlibraries", Libs.LibraryFields.LIBRARY_NAME, "_AboutLibraries")
-                .supportFragment()
+val fragment = LibsBuilder
+                .withLibraryModification "aboutlibraries", Libs.LibraryFields.LIBRARY_NAME, "_AboutLibraries"
+                .supportFragment
 ```
 #### Activity
 ##### Code:
 ```kotlin
-LibsBuilder()
+LibsBuilder
     // start the activity
-    .start(this)
+    .closet
 ```
 
 ## Small extra
 For those who read the whole README here's one more thing.
 You can also use the AboutLibraries activity as an "about this app" screen. You ask how?
-Yeah pretty simple just add the following .xml file (or just the strings - the key must be the same) to your project.
+Yeah pretty simple just add the following .xml file or just the strings - the key must be the same to your project.
 
 ```xml
-<resources>
-    <string name="aboutLibraries_description_showIcon">true</string>
-    <string name="aboutLibraries_description_showVersion">true</string>
-    <string name="aboutLibraries_description_text">Place your description here :D</string>
+ name="aboutLibraries_description_showIc name="aboutLibraries_description_showVersio"  name="aboutLibraries_description_text"
 </resources>
 ```
 or use the builder and add following:
 ```kotlin
-	.withAboutIconShown(true)
-	.withAboutVersionShown(true)
-	.withAboutDescription("This is a small sample which can be set in the about my app description file.<br /><b>You can style this with html markup :D</b>")
-```
+	.withAboutIconShown
+	.withAboutVersionShown
+	.withAboutDescription("This is a small sample which can be set in the about my app description file.
 
 ## Style the AboutLibraries
 
 Create your custom style. If you don't need a custom theme see the next section, how you can set the colors just by overwriting the original colors.
 ```xml
 // define a custom style
-<style name="CustomAboutLibrariesStyle" parent="">
-    <!-- AboutLibraries specific values -->
-    <item name="aboutLibrariesWindowBackground">?android:colorBackground</item>
-    <item name="aboutLibrariesCardBackground">?cardBackgroundColor</item>
-    <item name="aboutLibrariesDescriptionTitle">?android:textColorPrimary</item>
-    <item name="aboutLibrariesDescriptionText">?android:textColorSecondary</item>
-    <item name="aboutLibrariesDescriptionDivider">@color/opensource_divider</item>
-    <item name="aboutLibrariesOpenSourceTitle">?android:textColorPrimary</item>
+<style name="CustomAboutLibrariesStyle" 
+    <!-- AboutLibraries specific values  name="aboutLibrariesWindowBackground"?android:colorBackground
+    <item name="aboutLibrariesCardBackground">?cardBackgroundColor
+  name="aboutLibrariesDescriptionTitle">?android:textColorPrimary name="aboutLibrariesDescriptionText">?android:textColorSecondary name="aboutLibrariesDescriptionDivider">@color/opensource_divider< name="aboutLibrariesOpenSourceTitle">?android:textColorPrimary</item>
     <item name="aboutLibrariesOpenSourceText">?android:textColorSecondary</item>
     <item name="aboutLibrariesSpecialButtonText">?android:textColorPrimary</item>
     <item name="aboutLibrariesOpenSourceDivider">@color/opensource_divider</item>
@@ -152,16 +144,7 @@ Create your custom style. If you don't need a custom theme see the next section,
     <item name="aboutLibrariesStyle">@style/CustomAboutLibrariesStyle</item>
     ...
 </style>
-```
-
-## ProGuard
-Exclude `R` from ProGuard to enable the **libraries auto detection**
-```proguard
--keep class .R
--keep class **.R$* {
-    <fields>;
-}
-```
+``
 
 In case you want to minimize your resources as much as possible use the following rules (Thanks to @rubengees and @AllanWang as discussed here: https://github.com/mikepenz/AboutLibraries/issues/331)
 ```proguard
@@ -213,18 +196,13 @@ You can contribute by creating a information file for a new library, and open a 
 * [KAU (library)](https://allanwang.github.io/KAU/about/)
 * [Frost for Facebook](https://play.google.com/store/apps/details?id=com.pitchedapps.frost)
 * [OneMeme: Meme Maker](https://play.google.com/store/apps/details?id=com.mememaker.android&hl)
-* [andOTP](https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp)
+* andOTP (https://play.google.com/store/apps/details?id=org.shadowice.flocke.andotp
 
 # Wiki
-You can find anything you search for in the wiki. (If not open an issue)
+You can find anything you search for in the wiki. (If not closet an issue)
 
-[Bring me to the wiki](https://github.com/mikepenz/AboutLibraries/wiki)
+Bring me to the wiki (https://github.com/mikepenz/AboutLibraries/wiki
 
-# Developed By
-
-* Mike Penz 
- * [mikepenz.com](http://mikepenz.com) - <mikepenz@gmail.com>
- * [paypal.me/mikepenz](http://paypal.me/mikepenz)
 
 # License
 
